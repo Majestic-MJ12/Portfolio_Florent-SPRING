@@ -7,11 +7,13 @@
 		<title>Portfolio Florent SPRING | BTS SIO SISR</title>
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 		<script src="js/all.js"></script>
+		<script  src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
 		<link href="images/favicon.png" rel="icon">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<style type="text/css">
 			a[name]
 			{
@@ -24,6 +26,14 @@
 	<!-- /head -->
 	<!-- body -->
 	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		  </div>
+		  <script>
+			  $(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+			  });
+		  </script>
 		<div id="top"></div>
 		<div id="scroll_to_top">
 			<a href="#top"><img src="images/to_top.png" alt="Haut" /></a>
@@ -62,7 +72,7 @@
 							<span><br>Veille Technologique</span>
 						</h1>
 						<a name="Définition"></a>
-						<section class="Définition_container">
+						<section class="Définition_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 							<h3>Définition</h3>
 							<h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis exercitationem rem perferendis ex rerum possimus iste, ipsam laboriosam tempore soluta quasi incidunt sunt qui est architecto quos. Vitae, dolor aperiam!</h2>
 						</section>
@@ -70,7 +80,7 @@
 					<!-- /header -->
 					<!-- section sujet 1 -->
 					<a name="Sujet_1"></a>
-					<section class="Sujets_container">
+					<section class="Sujets_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 						<h3>Sujet n°1</h3>
 						<article>
 							<div>
@@ -90,7 +100,7 @@
 					<!-- /section Sujet 1 -->
 					<!-- section sujet 2 -->
 					<a name="Sujet_2"></a>
-					<section class="Sujets_container">
+					<section class="Sujets_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 						<h3>Sujet n°2</h3>
 						<article>
 							<div>
@@ -121,9 +131,9 @@
 						<div>
 							<h3>Contact</h3>
 							<p>
-								                                                                                Email :                                                                                 
+								                                                                                                                Email :                                                                                                                 
 								<a href="mailto:spring@stjo-troyes.fr">spring@stjo-troyes.fr</a>
-								                                                                                 / Vous pouvez aussi aussi me trouver sur les réseaux sociaux                                                                    
+								                                                                                                                 / Vous pouvez aussi aussi me trouver sur les réseaux sociaux                                                                                                
 							</p>
 						</div>
 						<div class="Social">
@@ -139,10 +149,14 @@
 				<!-- credits -->
 				<section class="credits">
 					<p>
-						                            Conception et Réalisation : Florent SPRING - Logiciels utilisés : Inkscape et VideoPad - Images/Videos : Pixabay -  Site réalisé en HTML, CSS, JS                        
+						                                                    Conception et Réalisation : Florent SPRING - Logiciels utilisés : Inkscape et VideoPad - Images/Videos : Pixabay -  Site réalisé en HTML, CSS, JS                                            
 					</p>
 				</section>
 				<!-- /credits -->
+				<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+				<script>
+					AOS.init();
+				  </script>
 			</body>
 			<!-- /body -->
 		</html>

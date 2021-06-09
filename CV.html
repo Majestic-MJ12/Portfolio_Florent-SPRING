@@ -7,11 +7,13 @@
 		<title>Portfolio Florent SPRING | BTS SIO SISR</title>
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 		<script src="js/all.js"></script>
+		<script  src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
 		<link href="images/favicon.png" rel="icon">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<style type="text/css">
 			a[name]
 			{
@@ -24,6 +26,14 @@
 	<!-- /head -->
 	<!-- body -->
 	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		  </div>
+		  <script>
+			  $(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+			  });
+		  </script>
 		<div id="top"></div>
 		<div id="scroll_to_top">
 			<a href="#top"><img src="images/to_top.png" alt="Haut" /></a>
@@ -68,7 +78,7 @@
 					<!-- /header -->
 					<!-- section à propos -->
 					<a name="A_Propos"></a>
-					<section class="Propos container">
+					<section class="Propos container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 						<h3>A Propos</h3>
 						<article>
 							<div>
@@ -85,19 +95,19 @@
 					<!-- /section à propos -->
 					<!-- section compétences -->
 					<a name="Compétences"></a>
-					<section class="Compétences container">
+					<section class="Compétences container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 						<h3>Compétences</h3>
 						<img class="Compétences_img" src="images/Competences.png" alt="Compétences">
 					</section>
 					<!-- /section compétences -->
 					<!-- section formations -->
 					<a name="Formations"></a>
-					<section class="Formations_container">
+					<section class="Formations_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 						<h3>Formations</h3>
 						<div class="bloc_principal">
 							<div class="Informations">
 								<p>
-									                                                                Lorem                                                        
+									                                                                                                    Lorem                                                                                        
 								</p>
 							</div>
 							<div class="bloc_img">
@@ -122,14 +132,14 @@
 							</div>
 							<div class="Informations">
 								<p>
-									                                                                Lorem                                                        
+									                                                                                                    Lorem                                                                                        
 								</p>
 							</div>
 						</div>
 						<div class="bloc_principal">
 							<div class="Informations">
 								<p>
-									                                                                Lorem                                                        
+									                                                                                                    Lorem                                                                                        
 								</p>
 							</div>
 							<div class="bloc_img">
@@ -146,12 +156,12 @@
 					<!-- /section formations -->
 					<!-- section Expériences Professionnelles -->
 					<a name="Expériences_Professionnelles"></a>
-					<section class="Expériences_Professionnelles_container">
+					<section class="Expériences_Professionnelles_container" data-aos="zoom-in-left" data-aos-offset= "100" data-aos-delay= "250" data-aos-duration = "400">
 						<h3>Expériences Professionnelles</h3>
 						<div class="bloc_principal">
 							<div class="Informations">
 								<p>
-									                                                                Lorem                                                        
+									                                                                                                    Lorem                                                                                        
 								</p>
 							</div>
 							<div class="bloc_img">
@@ -176,14 +186,14 @@
 							</div>
 							<div class="Informations">
 								<p>
-									                                                                Lorem                                                        
+									                                                                                                    Lorem                                                                                        
 								</p>
 							</div>
 						</div>
 						<div class="bloc_principal">
 							<div class="Informations">
 								<p>
-									                                                                Lorem                                                        
+									                                                                                                    Lorem                                                                                        
 								</p>
 							</div>
 							<div class="bloc_img">
@@ -198,47 +208,47 @@
 						</div>
 					</section>
 					<a name="Mes_Réalisations"></a>
-					<section class="Réalisations_container">
+					<section class="Réalisations_container" data-aos="zoom-in-left" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 						<h3>Mes Réalisations</h3>
 						<p>
-							                                                                             Nom du Projet 1                                                
+							                                                                                                         Nom du Projet 1                                                                            
 							<a href="download/CV_Florent_SPRING.pdf" target="_blank" download>
 								<button class="btn2"><img src="images/pdf.png" alt="Télécharger"></button>
 							</a>
 						</p>
 						<p>
-							                                                                        Nom du Projet 2                                                
+							                                                                                                    Nom du Projet 2                                                                            
 							<a href="download/CV_Florent_SPRING.pdf" target="_blank" download>
 								<button class="btn2"><img src="images/pdf.png" alt="Télécharger"></button>
 							</a>
 						</p>
 					</section>
 					<a name="Loisirs"></a>
-					<section class="Loisirs_container">
+					<section class="Loisirs_container" data-aos="zoom-in-left" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 						<h3>Mes Loisirs</h3>
 						<div class = "Bloc_Loisirs">
 							<div class = "Loisir_1">
 								<img class="Loisir" src="images/Pingpong.png" alt="Pro">
 								<p>
-									                                                                    Ping Pong                                                            
+									                                                                                                        Ping Pong                                                                                            
 								</p>
 							</div>
 							<div class = "Loisir_2">
 								<img class="Loisir" src="images/Randonnee.png" alt="Pro">
 								<p>
-									                                                                    Randonnée                                                            
+									                                                                                                        Randonnée                                                                                            
 								</p>
 							</div>
 							<div class = "Loisir_3">
 								<img class="Loisir" src="images/Cinema.png" alt="Pro">
 								<p>
-									                                                                    Films/Séries en VO                                                            
+									                                                                                                        Films/Séries en VO                                                                                            
 								</p>
 							</div>
 							<div class = "Loisir_4">
 								<img class="Loisir" src="images/Ordinateur.png" alt="Pro">
 								<p>
-									                                                                    Informatique                                                            
+									                                                                                                        Informatique                                                                                            
 								</p>
 							</div>
 						</div>
@@ -256,9 +266,9 @@
 						<div>
 							<h3>Contact</h3>
 							<p>
-								                                                                            Email :                                                                             
+								                                                                                                            Email :                                                                                                             
 								<a href="mailto:spring@stjo-troyes.fr">spring@stjo-troyes.fr</a>
-								                                                                             / Vous pouvez aussi aussi me trouver sur les réseaux sociaux                                                                
+								                                                                                                             / Vous pouvez aussi aussi me trouver sur les réseaux sociaux                                                                                            
 							</p>
 						</div>
 						<div class="Social">
@@ -274,10 +284,14 @@
 				<!-- credits-->
 				<section class="credits">
 					<p>
-						                        Conception et Réalisation : Florent SPRING - Logiciels utilisés : Inkscape et VideoPad - Images/Videos : Pixabay -  Site réalisé en HTML, CSS, JS                    
+						                                                Conception et Réalisation : Florent SPRING - Logiciels utilisés : Inkscape et VideoPad - Images/Videos : Pixabay -  Site réalisé en HTML, CSS, JS                                        
 					</p>
 				</section>
 				<!-- /credits-->
+				<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+				<script>
+					AOS.init();
+				  </script>
 			</body>
 			<!-- /body -->
 		</html>

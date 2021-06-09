@@ -7,11 +7,13 @@
 		<title>Portfolio Florent SPRING | BTS SIO SISR</title>
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 		<script src="js/all.js"></script>
+		<script  src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
 		<link href="images/favicon.png" rel="icon">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<style type="text/css">
 			a[name]
 			{
@@ -24,6 +26,14 @@
 	<!-- /head -->
 	<!-- body -->
 	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		  </div>
+		  <script>
+			  $(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+			  });
+		  </script>
 		<div id="top"></div>
 		<div id="scroll_to_top">
 			<a href="#top"><img src="images/to_top.png" alt="Haut" /></a>
@@ -69,7 +79,7 @@
 					<!-- /header -->
 					<!-- section à propos -->
 					<a name="A_Propos"></a>
-					<section class="Propos container">
+					<section class="Propos container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 						<h3>A Propos</h3>
 						<img class="BTS-img" src="images/BTS.png" alt="BTS SIO">
 						<h2>                                Le Brevet de Technicien Supérieur en Services Informatiques aux Organisations est une formation de deux ans qui se déroule dans les lycées, écoles privées ou centres de formation professionnelle français. Il peut être préparé dans le cadre d'une formation continue, en alternance ou par correspondance avec le Cned, ou dans le cadre d'une formation initiale.                        </h2>
@@ -83,7 +93,7 @@
 					<!-- /section à propos -->
 					<!-- section Localisation -->
 					<a name="Localisation"></a>
-					<section class="Localisation_container">
+					<section class="Localisation_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 						<h3>Localisation</h3>
 						<article>
 							<div>
@@ -98,19 +108,19 @@
 					<!-- /section Localisation -->
 					<!-- section Spécialisation -->
 					<a name="Spécialisation"></a>
-					<section class="Spécialisation_container">
+					<section class="Spécialisation_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 						<h3>Spécialisation</h3>
 						<section class="Spécialisation">
 							<section class = "Option">
 								<h5>
-									                                                                                            Option SISR                                                                                
+									                                                                                                                                Option SISR                                                                                                                
 								</h5>
 								<img src="./images/reseau.png" width="85%" alt="Mockup Réseau" title="Mockup Réseau">
 								<h2>Administration des systèmes et réseaux : le titulaire participe à l'administration des systèmes et réseaux, il pourra modifier ou ajuster les solutions d'infrastructure et la qualité de service des équipements réseaux. Il acquiert ainsi les compétences pour concevoir, installer, tester et mettre en œuvre une solution d'infrastructure réseau. L'étudiant apprend également à administrer et à encadrer ce réseau.</h2>
 							</section>
 							<section class = "Option">
 								<h5>
-									                                                                                            Option SLAM                                                                                
+									                                                                                                                                Option SLAM                                                                                                                
 								</h5>
 								<img src="./images/developpement.png" width="85%" alt="Mockup Développement" title="Mockup Développement">
 								<h2>Conception et développement d'applications : l'étudiant participe à la conception, au développement, à la mise en œuvre et à la maintenance des composants logiciels de la solution applicative. Il acquiert ainsi des compétences dans la conception et le développement d'une solution applicative, sa maintenance, mais aussi les bases de données et la gestion des données numériques.</h2>
@@ -130,9 +140,9 @@
 						<div>
 							<h3>Contact</h3>
 							<p>
-								                                                                        Email :                                                                         
+								                                                                                                        Email :                                                                                                         
 								<a href="mailto:spring@stjo-troyes.fr">spring@stjo-troyes.fr</a>
-								                                                                         / Vous pouvez aussi aussi me trouver sur les réseaux sociaux                                                            
+								                                                                                                         / Vous pouvez aussi aussi me trouver sur les réseaux sociaux                                                                                        
 							</p>
 						</div>
 						<div class="Social">
@@ -148,10 +158,14 @@
 				<!-- credits -->
 				<section class="credits">
 					<p>
-						                        Conception et Réalisation : Florent SPRING - Logiciels utilisés : Inkscape et VideoPad - Images/Videos : Pixabay -  Site réalisé en HTML, CSS, JS                    
+						                                                Conception et Réalisation : Florent SPRING - Logiciels utilisés : Inkscape et VideoPad - Images/Videos : Pixabay -  Site réalisé en HTML, CSS, JS                                        
 					</p>
 				</section>
 				<!-- /credits -->
+				<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+				<script>
+					AOS.init();
+				  </script>
 			</body>
 			<!-- /body -->
 		</html>

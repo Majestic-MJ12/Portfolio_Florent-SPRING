@@ -7,11 +7,13 @@
 		<title>Portfolio Florent SPRING | BTS SIO SISR</title>
 		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 		<script src="js/all.js"></script>
+		<script  src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
 		<link href="images/favicon.png" rel="icon">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<style type="text/css">
 			a[name]
 			{
@@ -24,6 +26,14 @@
 	<!-- /head -->
 	<!-- body -->
 	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		  </div>
+		  <script>
+			  $(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+			  });
+		  </script>
 		<div id="top"></div>
 		<div id="scroll_to_top">
 			<a href="#top"><img src="images/to_top.png" alt="Haut" /></a>
@@ -70,7 +80,7 @@
 						<!-- /header -->
 						<!-- section à propos -->
 						<a name="A_Propos"></a>
-						<section class="Propos container">
+						<section class="Propos container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 							<h3>A Propos</h3>
 							<img class="TEDINFO-img" src="images/TEDINFO.png" alt="TEDINFO">
 							<h2>TedInfo est une PME qui a pour activité la vente et la réparation de smartphones, ordinateurs et tablettes. La vente d’imprimantes, d’accessoires et consommables…                    Elle commercialise du matériel neuf mais également du reconditionné. Issus de parc informatique professionnel elle achete ses appareils auprès d’un partenaire qualifié dans le reconditionnement offrant ainsi une seconde vie aux machines. En parallèle elle développe des logiciels sur-mesures afin de rendre la gestion de personne et de travail plus simple. Tous les modules créés et proposés s’adaptent à toutes les professions.</h2>
@@ -81,7 +91,7 @@
 						<!-- /section à propos -->
 						<!-- section Localisation -->
 						<a name="Localisation"></a>
-						<section class="Localisation_container">
+						<section class="Localisation_container"data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
 							<h3>Localisation</h3>
 							<article>
 								<div>
@@ -108,9 +118,9 @@
 							<div>
 								<h3>Contact</h3>
 								<p>
-									                                                                        Email :                                                                         
+									                                                                                                            Email :                                                                                                             
 									<a href="mailto:spring@stjo-troyes.fr">spring@stjo-troyes.fr</a>
-									                                                                         / Vous pouvez aussi aussi me trouver sur les réseaux sociaux                                                            
+									                                                                                                             / Vous pouvez aussi aussi me trouver sur les réseaux sociaux                                                                                            
 								</p>
 							</div>
 							<div class="Social">
@@ -126,10 +136,14 @@
 					<!-- credits -->
 					<section class="credits">
 						<p>
-							                        Conception et Réalisation : Florent SPRING - Logiciels utilisés : Inkscape et VideoPad - Images/Videos : Pixabay -  Site réalisé en HTML, CSS, JS                    
+							                                                    Conception et Réalisation : Florent SPRING - Logiciels utilisés : Inkscape et VideoPad - Images/Videos : Pixabay -  Site réalisé en HTML, CSS, JS                                            
 						</p>
 					</section>
 					<!-- /credits -->
+					<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+					<script>
+						AOS.init();
+					  </script>
 				</body>
 				<!-- /body -->
 			</html>

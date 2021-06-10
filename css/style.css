@@ -58,7 +58,6 @@
 	{
 		transform: rotate(360deg);
 	}
-
 }
 
 @keyframes loader-inner
@@ -87,7 +86,6 @@
 	{
 		height: 0%;
 	}
-
 }
 
 /* /Chargement */
@@ -213,8 +211,19 @@ h2
 {
 	font-size: 170%;
 	font-family: 'Open Sans', sans-serif;
-	text-align: center;
+	text-align: justify;
 	color: whitesmoke;
+}
+
+h2 li
+{
+	text-align: justify;
+	padding-left: 5%;
+}
+
+header h2
+{
+	text-align: center;
 }
 
 h3
@@ -320,7 +329,30 @@ article h2
 {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-evenly;
+}
+
+.Projets-objets h2
+{
+	text-align: center;
+}
+
+.Projets-objets-1
+{
+	max-width: 33%;
+	padding: 2%;
+}
+
+.Projets-objets-2
+{
+	max-width: 33%;
+	padding: 2%;
+}
+
+.Projets-objets-3
+{
+	max-width: 33%;
+	padding: 2%;
 }
 
 .Projets-objets img
@@ -365,6 +397,12 @@ article h2
 	padding-top: 2%;
 	display: flex;
 	flex-direction: column;
+	color: white;
+}
+
+.Formations_container li
+{
+	text-align: left;
 }
 
 .formation-img
@@ -381,9 +419,9 @@ article h2
 .Informations
 {
 	width: 100%;
-	border: black;
-	border-style: solid;
-	border-width: thin;
+	border: rgba(0, 0, 0, 0.364);
+	border-style: double;
+	border-width: 15%;
 }
 
 .bloc_img
@@ -410,6 +448,7 @@ article h2
 	padding-right: 25%;
 	padding-bottom: 2%;
 	padding-top: 2%;
+	color: white;
 }
 
 /* /Expériences professionnelles */
@@ -458,6 +497,11 @@ article h2
 	background-color: rgba(255,255,255,0.15) ;
 	border-radius: 10em;
 	padding: 2%;
+}
+
+.Réalisations_container h2
+{
+	text-align: center;
 }
 
 /* /Mes Réalisations */
@@ -521,6 +565,11 @@ article h2
 	background-color: rgba(255,255,255,0.15) ;
 	border-radius: 10em;
 	padding: 2%;
+}
+
+.Définition_container img
+{
+	width: 30%;
 }
 
 /* /Définition */
@@ -707,6 +756,57 @@ footer.Contact.container
 }
 
 /* /bouton */
+/* Réseaux sociaux */
+.svg-inline--fa
+{
+	animation: pulse 2s infinite;
+	margin: 0 auto;
+	display: table;
+	margin-top: 50px;
+	animation-direction: alternate;
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+}
+
+@-webkit-keyframes pulse
+{
+	0%
+	{
+		-webkit-transform: scale(1);
+	}
+
+	50%
+	{
+		-webkit-transform: scale(1.1);
+	}
+
+	100%
+	{
+		-webkit-transform: scale(1);
+	}
+
+}
+
+@keyframes pulse
+{
+	0%
+	{
+		transform: scale(1);
+	}
+
+	50%
+	{
+		transform: scale(1.1);
+	}
+
+	100%
+	{
+		transform: scale(1);
+	}
+
+}
+
+/* /Réseaux sociaux */
 /* scroll bouton */
 #scroll_to_top
 {

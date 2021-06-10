@@ -154,7 +154,7 @@ nav ul li:hover ul
 	z-index:99999;
 	display:list-item;
 	position:absolute;
-	margin-top:1%;
+	margin-top:0.5%;
 	margin-left:-2%;
 	margin-right: 2%;
 	font-size: 55%;
@@ -729,13 +729,14 @@ video#loop-video
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	max-width: 100%;
-	width: auto;
-	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	opacity: 39%;
 	z-index: -100;
 }
 
 /* /video */
+/* credits */
 .credits
 {
 	background-color: black;
@@ -743,3 +744,5 @@ video#loop-video
 	display: flex;
 	justify-content: center;
 }
+
+/* /credits */

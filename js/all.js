@@ -7,4 +7,14 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
 /* /bar evolutive */
+/* video loop */
+var video = document.getElementById("loop-video");
+video.addEventListener("canplay", function() {
+  setTimeout(function() {
+    video.play();
+  }, 5000);
+});
+
+/* /video loop */

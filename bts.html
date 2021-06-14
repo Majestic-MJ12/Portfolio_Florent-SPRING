@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- html -->
+<html lang="fr">
+	<!-- head -->
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio Florent SPRING | BTS SIO SISR</title>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script src="js/all.js"></script>
+		<script  src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
+		<link href="images/favicon.png" rel="icon">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<style type="text/css">
+			a[name]
+			{
+				display: block;
+				height: 63px;
+			}
+
+		</style>
+	</head>
+	<!-- /head -->
+	<!-- body -->
+	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
+		<script>
+			                          $(window).on("load",function(){
+				                                $(".loader-wrapper").fadeOut("slow");
+				                                          
+			});
+		</script>
+		<div id="top"></div>
+		<div id="scroll_to_top">
+			<a href="#top"><img src="images/to_top.png" alt="Haut" /></a>
+		</div>
+		<!-- nav -->
+		<nav>
+			<div class="header">
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="cv.html">Mon CV</a></li>
+					<li>
+						<a class = "position" href="bts.html">BTS SIO</a>
+						<ul>
+							<li><a href="#about">A propos</a></li>
+							<li><a href="#localisation">Localisation</a></li>
+							<li><a href="#specialisation">Spécialisation</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</li>
+					<li><a href="business.html">TEDINFO</a></li>
+					<li><a href="eve.html">Veille Technologique</a></li>
+				</ul>
+				<div class="progress-container">
+					<div class="progress-bar" id="myBar"></div>
+				</div>
+			</div>
+		</nav>
+		<!-- /nav -->
+		<!-- header -->
+		<main>
+			<video id="loop-video" poster="videos/electronic.png" autoplay loop muted playsinline preload="true">
+				<source src="videos/electronic.webm" type="video/webm">
+					<source src="videos/electronic.mp4" type="video/mp4"></video>
+					<header>
+						<h1>
+							<span><br>BTS SIO</span>
+						</h1>
+						<h2>
+							<br>
+							<span>Présentation du Brevet de Technicien Supérieur en Services Informatiques aux Organisations</span>
+						</h2>
+					</header>
+					<!-- /header -->
+					<!-- section à propos -->
+					<a name="about"></a>
+					<section class="about_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
+						<h3>A Propos</h3>
+						<img class="bts-img" src="images/bts.png" alt="bts">
+						<h2>                                Le Brevet de Technicien Supérieur en Services Informatiques aux Organisations est une formation de deux ans qui se déroule dans les lycées, écoles privées ou centres de formation professionnelle français. Il peut être préparé dans le cadre d'une formation continue, en alternance ou par correspondance avec le Cned, ou dans le cadre d'une formation initiale.                        </h2>
+						<h2>Le BTS SIO propose deux spécialités bien distinctes : Le BTS SIO Option SISR et le BTS SIO Option SLAM.</h2>
+						<h2>L'élève du BTS SIO acquiert les compétences de trois domaines d'activités dont deux en commune entre les deux spécialités.                        </h2>
+						<h2>                            J'effectue actuellement ce BTS en option SISR au Groupe Saint-Joseph La Salle à Troyes en alternance.</h2>
+						<!-- lien site BTS -->
+						<button class="btn" onclick="window.open('https://lasalle-troyes.fr/de-maternelle-a-bac-5-apres-bac/presentation-des-formations-2/bts-sio/','_blank');">Site Web BTS SIO</button>
+						<!-- /lien site BTS -->
+					</section>
+					<!-- /section à propos -->
+					<!-- section Localisation -->
+					<a name="localisation"></a>
+					<section class="localisation_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
+						<h3>Localisation</h3>
+						<article>
+							<div>
+								<h2>GROUPE SAINT-JOSEPH LA SALLE A TROYES                               </h2>
+								<br>
+								<h2>Adresse : 21 Rue du Cloître Saint-Etienne, 10000 Troyes</h2>
+								<h2>Téléphone : 03 25 72 15 30                                </h2>
+							</div>
+							<div class="maps">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5308.595712229784!2d4.077422634887705!3d48.2971226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee98f086829225%3A0x220dbccca1623fb9!2sGroupe%20Saint-Joseph%20La%20Salle!5e0!3m2!1sfr!2spl!4v1617727097121!5m2!1sfr!2spl" width="350" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							</div>
+						</article>
+					</section>
+					<!-- /section Localisation -->
+					<!-- section Spécialisation -->
+					<a name="specialisation"></a>
+					<section class="specialisation_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
+						<h3>Spécialisation</h3>
+						<section class="specialisation">
+							<section class = "option">
+								<h5>
+									                                                                                                                                                                                                        Option SISR                                                                                                                                                                                
+								</h5>
+								<img src="./images/network.png" width="85%" alt="network" title="network">
+								<h2>Administration des systèmes et réseaux : le titulaire participe à l'administration des systèmes et réseaux, il pourra modifier ou ajuster les solutions d'infrastructure et la qualité de service des équipements réseaux. Il acquiert ainsi les compétences pour concevoir, installer, tester et mettre en œuvre une solution d'infrastructure réseau. L'étudiant apprend également à administrer et à encadrer ce réseau.</h2>
+							</section>
+							<section class = "option">
+								<h5>
+									                                                                                                                                                                                                        Option SLAM                                                                                                                                                                                
+								</h5>
+								<img src="./images/development.png" width="85%" alt="development" title="development">
+								<h2>Conception et développement d'applications : l'étudiant participe à la conception, au développement, à la mise en œuvre et à la maintenance des composants logiciels de la solution applicative. Il acquiert ainsi des compétences dans la conception et le développement d'une solution applicative, sa maintenance, mais aussi les bases de données et la gestion des données numériques.</h2>
+							</section>
+						</section>
+					</section>
+				</main>
+				<!-- /section Spécialisation -->
+				<!-- footer et contact -->
+				<a name=""></a>
+				<footer class="contact_container">
+					<a name="contact"></a>
+					<section class="link">
+						<img src="images/link.png" alt="link">
+					</section>
+					<section>
+						<div>
+							<h3>Contact</h3>
+							<p>
+								                                                                                                                                                                        Email :                                                                                                                                                                         
+								<a href="mailto:spring@stjo-troyes.fr">spring@stjo-troyes.fr</a>
+								                                                                                                                                                                         / Vous pouvez aussi aussi me trouver sur les réseaux sociaux                                                                                                                                                
+							</p>
+						</div>
+						<div class="social">
+							<a href="https://twitter.com/majestic_sj12/"target="_blank"><i class="fab fa-twitter-square"></i></a>
+							<a href="https://www.linkedin.com/in/florent-spring-32035914b/"target="_blank"><i class="fab fa-linkedin"></i></a>
+						</div>
+					</section>
+					<section class="link-2">
+						<img src="images/link-2.png" alt="link-2">
+					</section>
+				</footer>
+				<!-- /footer et contact -->
+				<!-- credits -->
+				<section class="credits">
+					<p>
+						                        Conception et Réalisation : Florent SPRING - Logiciels utilisés : PowerPoint®, Inkscape et VideoPad® - Sites Web utilisés : Pixabay, Google Images (Licences Creative Commons), Google Maps et TED2COM - Site réalisé en HTML, CSS, JS                  
+					</p>
+				</section>
+				<!-- /credits -->
+				<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+				<script>
+					                                        AOS.init();
+				</script>
+			</body>
+			<!-- /body -->
+		</html>
+		<!-- /html -->

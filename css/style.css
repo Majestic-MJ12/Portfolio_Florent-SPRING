@@ -89,28 +89,28 @@
 }
 
 /* /Chargement */
-/* HTML + body */
+/* Html + Body */
 html, body
 {
 	cursor: url('../images/cursor.png'), default;
 }
 
-/* HTML + body */
-/* html */
+/* Html + Body */
+/* Html */
 html
 {
 	scroll-behavior: smooth;
 	background-color: black;
 }
 
-/* /html */
+/* /Html */
 main
 {
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
-/* nav */
+/* Nav */
 nav ul
 {
 	display: flex;
@@ -171,8 +171,8 @@ nav ul li:hover ul li
 	text-transform: uppercase;
 }
 
-/* /nav */
-/* header section */
+/* /Nav */
+/* Header section */
 header
 {
 	padding: 7%;
@@ -186,7 +186,7 @@ header h1 span
 	font-size: 350%;
 }
 
-/* /header section */
+/* /Header section */
 /* Style de header: position fixe (toujours en haut) */
 .header
 {
@@ -199,14 +199,14 @@ header h1 span
 }
 
 /* Style de header: position fixe (toujours en haut) */
-/* body */
+/* Body */
 body
 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/* /body */
-/* h + ul */
+/* /Body */
+/* h + ul + p */
 h1
 {
 	font-size: 350%;
@@ -272,8 +272,8 @@ p
 	color: whitesmoke;
 }
 
-/* /h + ul */
-/* img */
+/* /h + ul +p */
+/* Img */
 .bts-img
 {
 	width: 25%;
@@ -306,8 +306,8 @@ p
 	filter: blur(0);
 }
 
-/* /img */
-/* maps */
+/* /Img */
+/* Maps */
 .maps
 {
 	border: #0DF9FB;
@@ -315,7 +315,8 @@ p
 	border-style: solid;
 }
 
-/* article */
+/* /Maps */
+/* Article */
 article
 {
 	display: flex;
@@ -330,8 +331,8 @@ article h2
 	text-align: left;
 }
 
-/* /article */
-/* section projets */
+/* /Article */
+/* Section projets */
 .projects-objects
 {
 	display: flex;
@@ -386,8 +387,8 @@ article h2
 	box-shadow: 0 0 3px 3px#0DF9FB;
 }
 
-/* /section projets */
-/* section compétences */
+/* /Section projets */
+/* Section compétences */
 .skills_container
 {
 	text-align: center;
@@ -409,7 +410,7 @@ article h2
 	transform: scale(1.3);
 }
 
-/* /section compétences */
+/* /Section compétences */
 /* Formations */
 .formations_container
 {
@@ -500,7 +501,7 @@ article h2
 }
 
 /* /Expériences professionnelles */
-/* spécialisation */
+/* Spécialisation */
 .specialisation_container
 {
 	text-align: center;
@@ -522,7 +523,7 @@ article h2
 	margin-right: 5%;
 }
 
-/* /spécialisation */
+/* /Spécialisation */
 /* Localisation */
 .localisation_container
 {
@@ -780,7 +781,7 @@ animation: flash 1.5s infinite}
 }
 
 /* /Sujets */
-/* footer */
+/* Footer */
 .contact
 {
 	background-size: cover;
@@ -841,8 +842,8 @@ footer.contact_container
 	justify-content: end;
 }
 
-/* /footer */
-/* scrollbar */
+/* /Footer */
+/* Scrollbar */
 ::-webkit-scrollbar
 {
 	width: 20px;
@@ -863,8 +864,8 @@ footer.contact_container
 	background: #0DF9FB;
 }
 
-/* /scrollbar */
-/* progress container */
+/* /Scrollbar */
+/* Progress container */
 .progress-container
 {
 	width: 100%;
@@ -872,8 +873,8 @@ footer.contact_container
 	background: black;
 }
 
-/* /progress container */
-/* progress bar */
+/* /Progress container */
+/* Progress bar */
 .progress-bar
 {
 	height: 8px;
@@ -881,8 +882,8 @@ footer.contact_container
 	width: 0%;
 }
 
-/* /progress bar */
-/* container */
+/* /Progress bar */
+/* Container */
 .about_container
 {
 	padding: 2%;
@@ -896,8 +897,8 @@ footer.contact_container
 	color: white;
 }
 
-/* /container */
-/* bouton */
+/* /Container */
+/* Bouton */
 .btn
 {
 	background-color: white;
@@ -934,7 +935,7 @@ footer.contact_container
 	vertical-align: middle;
 }
 
-/* /bouton */
+/* /Bouton */
 /* Réseaux sociaux */
 .svg-inline--fa
 {
@@ -984,7 +985,7 @@ footer.contact_container
 }
 
 /* /Réseaux sociaux */
-/* scroll bouton */
+/* Scroll bouton */
 #scroll_to_top
 {
 	position: fixed;
@@ -999,8 +1000,8 @@ footer.contact_container
 	width: 150%;
 }
 
-/* /scroll bouton */
-/* video */
+/* /Scroll bouton */
+/* Video */
 video#loop-video
 {
 	position: fixed;
@@ -1012,8 +1013,8 @@ video#loop-video
 	z-index: -100;
 }
 
-/* /video */
-/* credits */
+/* /Video */
+/* Credits */
 .credits
 {
 	background-color: black;
@@ -1022,4 +1023,4 @@ video#loop-video
 	justify-content: center;
 }
 
-/* /credits */
+/* /Credits */

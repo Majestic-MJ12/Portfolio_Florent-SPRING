@@ -258,6 +258,14 @@ h5
 	color: white;
 }
 
+h6
+{
+	font-size: 200%;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	margin: 0%;
+}
+
 ul
 {
 	font-size: 200%;
@@ -623,6 +631,34 @@ article h2
 }
 
 /* /Loisirs */
+/*section domaines activités */
+.tedskills_container
+{
+	text-align: center;
+	background-color: rgba(255,255,255,0.15) ;
+	border-radius: 10em;
+	padding: 2%;
+}
+
+.tedskills_bloc
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap : wrap;
+}
+
+.tedskills_bloc p
+{
+	font-size: 130%;
+}
+
+.tedskills_items
+{
+	width : 35%;
+	margin-bottom : 3%;
+}
+
+/* /section domaines activités */
 /* Définition */
 .definition_container
 {
@@ -728,10 +764,9 @@ article h2
 
 .subjects_container h2
 {
-	max-width: 80%;
 	margin: 0%;
+	text-align: justify;
 }
-
 
 .subjects_link a
 {
@@ -749,10 +784,7 @@ article h2
 .subject_1-img
 {
 	vertical-align: middle ;
-	width: 200%;
-	height: 200%;
-	float: right;
-	padding-left: 15%;
+	padding-left: 10%;
 	opacity: 1;
 	-webkit-animation: flash 10s;
 animation: flash 10s infinite}
@@ -760,10 +792,7 @@ animation: flash 10s infinite}
 .subject_2-img
 {
 	vertical-align: middle ;
-	width: 110%;
-	height: 100%;
-	float: right;
-	padding-right: 15%;
+	padding-left: 10%;
 	opacity: 1;
 	-webkit-animation: flash 10s;
 animation: flash 10s infinite}

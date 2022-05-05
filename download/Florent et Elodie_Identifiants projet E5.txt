@@ -1,0 +1,18 @@
+AD => ID : Administrateur MP : @zerty123
+Utilisateurs => ID : florent.spring MP : @zerty123 / ID : elodie.ta MP : Root1234+
+
+NAS (172.26.3.200) => ID : admin MP : L@salle10$
+
+GLPI => ID: ubuntu MP : root
+
+Windows 10 vrai machine => ID : SIO2 MP : @zerty
+
+Windows client VM => ID : Utilisateur MP : @zerty
+
+Dolibarr => ( http://doli6.sio-lasalle-troyes.fr/ ) ID admin : hmsb3 MP admin : OD%ymgSF7$ / ID : florent MP : florent / ID : elodie / MP : elodie
+
+Watchguard (172.30.106.1:8080) => ID : admin MP : readwrite / ID : status MP : readwrite+
+
+Vsphere => ( 10.10.10.128 ) ID : spring@a10.priv MP : spring / ID : ta@a10.priv MP : ta
+
+Observium => ID : root MP : root1234+

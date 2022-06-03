@@ -865,6 +865,12 @@ animation: flash 1.5s infinite}
 }
 
 /* /Sujets */
+/* Slide */
+.slide 
+{
+	text-align: center;
+}
+
 /* Footer */
 .contact
 {

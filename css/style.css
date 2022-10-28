@@ -889,6 +889,7 @@ animation: flash 1.5s infinite}
 	display: flex;
 	justify-content: space-evenly;
 	font-size: 300%;
+	vertical-align: middle;
 }
 
 footer

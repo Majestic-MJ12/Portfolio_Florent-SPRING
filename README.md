@@ -1,2 +1,2 @@
 # Portfolio_Florent-SPRING
-Config files for my GitHub profile.
+L'intégralité de mon portfolio (HTML, CSS, JS)

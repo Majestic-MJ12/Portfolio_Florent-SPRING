@@ -9,8 +9,6 @@ $ git clone https://github.com/Majestic-MJ12/OC_P4_DA-Python.git
 
 ## Accès
 
-Lien HTML : https://majestic-mj12.github.io/Portfolio_Florent-SPRING/
+Si vous avez téléchargé le depot, ouvrez ```index.html```
 
-# LICENCE
-
-MIT
+Lien HTML direct : https://majestic-mj12.github.io/Portfolio_Florent-SPRING/

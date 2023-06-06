@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<!-- HTML -->
+<html lang="en">
+	<!-- Head -->
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio Florent SPRING</title>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script src="js/all.js"></script>
+		<script  src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
+		<link href="images/favicon.png" rel="icon">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<style type="text/css">
+			a[name]
+			{
+				display: block;
+				height: 63px;
+			}
+		</style>
+	</head>
+	<!-- Body -->
+	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
+		<script>
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+			});
+		</script>
+		<div id="top"></div>
+		<div id="scroll_to_top">
+			<a href="#top"><img src="images/to_top.png" alt="Top" /></a>
+		</div>
+		<!-- Nav -->
+		<nav>
+			<div class="header">
+				<ul>
+					<li><a href="index_en.html">Home</a></li>
+					<li><a href="dataroom_en.html">Data Room</a></li>
+					<li>
+						<a class="position" href="CV.html">My CV</a>
+						<ul>
+							<li><a href="#about">About</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#formations">Education</a></li>
+							<li><a href="#professional_experiences">Professional Experiences</a></li>
+							<li><a href="#hobbies">Hobbies</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</li>
+					<li><a href="bts_en.html">BTS SIO</a></li>
+                    <li>
+						<a href="cv.html">
+							<img class="flag" src="images/france.png" alt="French" />
+						</a>
+					</li>
+				</ul>
+				<div class="progress-container">
+					<div class="progress-bar" id="myBar"></div>
+				</div>
+			</div>
+		</nav>
+		<!-- Header -->
+		<main>
+			<video id="loop-video" poster="videos/electronic.png" autoplay loop muted playsinline>
+				<source src="videos/electronic.webm" type="video/webm">
+					<source src="videos/electronic.mp4" type="video/mp4"></video>
+					<header>
+						<h1>
+							<span><br>Florent SPRING</span>
+						</h1>
+					</header>
+					<!-- About section -->
+					<a name="about"></a>
+					<section class="about_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
+						<h3>About</h3>
+						<article>
+							<div>
+								<img class="profil-img" src="images/profil.png" alt="Profile">
+							</div>
+							<div>
+								<h2>My name is Florent, I'm 32 years old, and I'm currently studying Python Application Developer at OpenClassrooms.</h2>
+							</div>
+						</article>
+						<!-- Download -->
+						<a href="download/CV_Florent_SPRING.pdf" target="_blank"><button class="btn">Download CV</button></a>
+					</section>
+					<!-- Skills section -->
+					<a name="skills"></a>
+					<section class="skills_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
+						<h3>Skills</h3>
+						<br>
+						<br>
+						<img class="skills_img" src="images/skills.png" alt="Skills">
+					</section>
+					<!-- Education section -->
+					<a name="formations"></a>
+					<section class="formations_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
+						<h3>Education</h3>
+						<div class="principal_bloc">
+							<div class="empty"></div>
+							<div class="bloc_img">
+								<div class = "logo_formation">
+									<img class="formation-img" src="images/formation.png" alt="Education">
+								</div>
+								<div class="line_img">
+									<br>
+									2022
+								</div>
+							</div>
+							<div class="informations">
+								<blockquote>
+									<b><u>DEGREE</u></b>
+									<br>
+									<br>
+									BTS Services Informatiques aux Organisations (Information Systems Services for Organizations) with a specialization in Infrastructure, Systems, and Networks (apprenticeship contract)
+									<br>
+									<br>
+									<li><i>Groupe Scolaire La Salle Troyes (10)</i></li>
+									<li>
+										<i>Entreprise TEDINFO, Arcis-sur-Aube (10)</i>
+										<br>
+									</li>
+								</div>
+							</div>
+						</blockquote>
+						<div class="principal_bloc">
+							<div class="informations">
+								<blockquote>
+									<b><u>DEGREE</u></b>
+									<br>
+									<br>
+									Professional Certificate as Pharmacy Assistant (apprenticeship contract)
+									<br>
+									<br>
+									<li>
+										<i>CFA de Bourges (18)</i>
+										<br>
+									</li>
+									<li>
+										<i>Pharmacie de la Gare, Bourges (18)</i>
+										<br>
+									</li>
+									<li><i>Pharmacie de Turly, Bourges (18)</i></li>
+								</div>
+							</blockquote>
+							<div class="bloc_img">
+								<div class = "logo_formation">
+									<img class="formation-img" src="images/formation.png" alt="Education">
+								</div>
+								<div class="line_img">
+									<br>
+									2013
+								</div>
+							</div>
+							<div class="empty"></div>
+						</div>
+						<div class="principal_bloc">
+							<div class="empty"></div>
+							<div class="bloc_img">
+								<div class = "logo_formation">
+									<img class="formation-img" src="images/formation.png" alt="Education">
+								</div>
+								<div class="line_img">
+									<br>
+									2010
+								</div>
+							</div>
+							<div class="informations">
+								<blockquote>
+									<b><u>DEGREE</u></b>
+									<br>
+									<br>
+									Baccalaureate in Agronomy and Life Sciences, specializing in Space Planning and Development
+									<br>
+									<br>
+									<li>
+										<i>LEGTA de Bourges (18)</i>
+										<br>
+									</li>
+								</div>
+							</div>
+						</blockquote>
+					</section>
+					<!-- Professional experience section -->
+					<a name="professional_experiences"></a>
+					<section class="professional_experiences_container" data-aos="zoom-in-left" data-aos-offset= "100" data-aos-delay= "250" data-aos-duration = "400">
+						<h3>Professional Experiences</h3>
+						<div class="principal_bloc">
+							<div class="informations">
+								<blockquote>
+									<b><u>IT TECHNICIAN (Apprenticeship)</u></b>
+									<br>
+									<br>
+									<li>
+										<i>TEDINFO - Arcis-sur-Aube (10)</i>
+										<br>
+									</li>
+									<br>
+									Hardware and telephony maintenance level 1/2 - Remote user support - Sale of IT equipment - IT and telephony assistance - Installation and configuration of an operating system
+								</div>
+							</blockquote>
+							<div class="bloc_img">
+								<div class = "logo_pro">
+									<img class="pro-img" src="images/pro.png" alt="Professional">
+								</div>
+								<div class="line_img">
+									<br>
+									09/2020 - 08/2022
+								</div>
+							</div>
+							<div class="empty"></div>
+						</div>
+						<div class="principal_bloc">
+							<div class="empty"></div>
+							<div class="bloc_img">
+								<div class = "logo_pro">
+									<img class="pro-img" src="images/pro.png" alt="Professional">
+								</div>
+								<div class="line_img">
+									<br>
+									12/2019 - 12/2019
+								</div>
+							</div>
+							<div class="informations">
+								<blockquote>
+									<b><u>WEB DEVELOPER INTERN</u></b>
+									<br>
+									<br>
+									<li>
+										<i>Code Expérience - La Rochelle (17)</i>
+										<br>
+									</li>
+									<br>
+									Technical realization and development of websites - Providing a technical solution adapted to the client's needs - Developing various functionalities of a website - Determining corrective measures - Digital communication
+								</div>
+							</div>
+						</blockquote>
+						<div class="principal_bloc">
+							<div class="informations">
+								<blockquote>
+									<b><u>DSI SERVICE INTERN</u></b>
+									<br>
+									<br>
+									<li>
+										<i>GHT Atlantique 17 - La Rochelle (17)</i>
+										<br>
+									</li>
+									<br>
+									Installation of IT equipment - Configuring workstations according to user needs and performing functionality tests - Network cabling of IT or office equipment
+								</div>
+							</blockquote>
+							<div class="bloc_img">
+								<div class = "logo_pro">
+									<img class="pro-img" src="images/pro.png" alt="Professional">
+								</div>
+								<div class="line_img">
+									<br>
+									10/2019 - 10/2019
+								</div>
+							</div>
+							<div class="empty"></div>
+						</div>
+						<div class="principal_bloc">
+							<div class="empty"></div>
+							<div class="bloc_img">
+								<div class = "logo_pro">
+									<img class="pro-img" src="images/pro.png" alt="Professional">
+								</div>
+								<div class="line_img">
+									<br>
+									03/2019 - 06/2019
+								</div>
+							</div>
+							<div class="informations">
+								<blockquote>
+									<b><u>HOSPITAL PHARMACY PREPARER</u></b>
+									<br>
+									<br>
+									<li>
+										<i>Hôpital Saint Louis - La Rochelle (17)</i>
+										<br>
+									</li>
+									<br>
+									Global, named, and daily prescription dispensing - Compounding - Delivery of healthcare products to care units
+								</div>
+							</div>
+						</blockquote>
+							<div class="principal_bloc">
+							<div class="informations">
+								<blockquote>
+									<b><u>PHARMACY ASSISTANT</u></b>
+									<br>
+									<br>
+									<li>
+										<i>Pharmacie des Coquillages - Angoulins (17)</i>
+										<br>
+									</li>
+									<li>
+										<i>Pharmacie Martin - Marsilly (17)</i>
+										<br>
+									</li>
+									<li>
+										<i>Pharmacie Borderie - Bourges (18)</i>
+										<br>
+									</li>
+									<br>
+									Prescription dispensing - Product sales - Customer advice - Shelf stocking - Order reception
+								</div>
+							</blockquote>
+							<div class="bloc_img">
+								<div class = "logo_pro">
+									<img class="pro-img" src="images/pro.png" alt="Professional">
+								</div>
+								<div class="line_img">
+									<br>
+									09/2013 - 03/2019
+								</div>
+							</div>
+							<div class="empty"></div>
+						</div>
+					</section>
+					<a name="hobbies"></a>
+					<section class="hobbies_container" data-aos="zoom-in-left" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
+						<h3>Hobbies</h3>
+						<div class="hobbies_bloc">
+							<div class="hobbies_1">
+								<img class="hobbies" src="images/pingpong.png" alt="Ping Pong">
+								<p>
+									Table Tennis
+								</p>
+							</div>
+							<div class="hobbies_2">
+								<img class="hobbies" src="images/walking.png" alt="Walking">
+								<p>
+									Hiking
+								</p>
+							</div>
+							<div class="hobbies_3">
+								<img class="hobbies" src="images/cinema.png" alt="Cinema">
+								<p>
+									Movies/Series in original version
+								</p>
+							</div>
+							<div class="hobbies_4">
+								<img class="hobbies" src="images/computer.png" alt="Computer">
+								<p>
+									Computer Science
+								</p>
+							</div>
+						</div>
+					</section>
+				</main>
+				<!-- Footer and contact -->
+				<a name=""></a>
+				<footer class="contact_container">
+					<a name="contact"></a>
+					<section class="link">
+						<img src="images/link.png" alt="Big Data">
+					</section>
+					<section>
+						<div>
+							<h3>Contact</h3>
+							<p>
+								<u>
+									Email:
+								</u>
+								<a href="mailto:florent.spring@yahoo.fr">florent.spring@yahoo.fr</a>
+								<br>
+								<br>
+								<u>
+									You can also find me on social media:
+								</u>
+							</p>
+						</div>
+						<div class="social">
+							<a href="https://twitter.com/majestic_sj12/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+							<a href="https://www.linkedin.com/in/florent-spring-32035914b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+						</div>
+						<br>
+					</section>
+					<section class="link-2">
+						<img src="images/link-2.png" alt="Big Data">
+					</section>
+				</footer>
+				<!-- Credits -->
+				<section class="credits">
+					<p>
+						Conception and Realization: Florent SPRING - Software used: PowerPoint®, Inkscape, and VideoPad® - Resources: Pixabay, Google Images (Creative Commons Licenses), Google Maps, and TED2COM - Website created using HTML, CSS, JS
+					</p>
+				</section>
+				<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+				<script>
+					AOS.init();
+				</script>
+			</body>
+		</html>

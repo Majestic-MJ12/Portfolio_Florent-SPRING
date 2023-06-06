@@ -1,5 +1,7 @@
-/* bar evolutive */
-window.onscroll = function() {myFunction()};
+/* progress bar */
+window.onscroll = function() {
+  myFunction()
+};
 
 function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
@@ -8,13 +10,10 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-/* /bar evolutive */
 /* video loop */
 var video = document.getElementById("loop-video");
 video.addEventListener("canplay", function() {
   setTimeout(function() {
-    video.play();
+      video.play();
   }, 5000);
 });
-
-/* /video loop */

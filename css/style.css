@@ -1,5 +1,5 @@
 
-/* Chargement */
+/* loading */
 .loader-wrapper
 {
 	width: 100%;
@@ -88,14 +88,12 @@
 	}
 }
 
-/* /Chargement */
 /* Html + Body */
 html, body
 {
 	cursor: url('../images/cursor.png'), default;
 }
 
-/* Html + Body */
 /* Html */
 html
 {
@@ -103,7 +101,7 @@ html
 	background-color: black;
 }
 
-/* /Html */
+/* main */
 main
 {
 	margin-left: 10%;
@@ -142,13 +140,13 @@ nav a:hover
 
 nav ul li ul
 {
-	/* Rend le menu déroulant caché par défaut */
+	/* make the dropdown menu hidden by default */
 	display:none;
 }
 
 nav ul li:hover ul
 {
-	/* Affiche la dropNav au survol de la souris avec la class .drop */
+	/* display the dropNav on mouse hover with the class .drop */
 	z-index:99999;
 	display:list-item;
 	position:absolute;
@@ -171,7 +169,11 @@ nav ul li:hover ul li
 	text-transform: uppercase;
 }
 
-/* /Nav */
+.flag {
+    width: 60px;
+    height: 60px;
+}
+
 /* Header section */
 header
 {
@@ -186,8 +188,7 @@ header h1 span
 	font-size: 350%;
 }
 
-/* /Header section */
-/* Style de header: position fixe (toujours en haut) */
+/* header style: fixed position (always at the top) */
 .header
 {
 	position: fixed;
@@ -198,14 +199,12 @@ header h1 span
 	margin: 0;
 }
 
-/* Style de header: position fixe (toujours en haut) */
 /* Body */
 body
 {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/* /Body */
 /* h + ul + p */
 h1
 {
@@ -280,7 +279,6 @@ p
 	color: whitesmoke;
 }
 
-/* /h + ul +p */
 /* Img */
 .bts-img
 {
@@ -314,7 +312,6 @@ p
 	filter: blur(0);
 }
 
-/* /Img */
 /* Maps */
 .maps
 {
@@ -323,7 +320,6 @@ p
 	border-style: solid;
 }
 
-/* /Maps */
 /* Article */
 article
 {
@@ -339,8 +335,7 @@ article h2
 	text-align: left;
 }
 
-/* /Article */
-/* Rapport */
+/* Report */
 .report_container
 {
 	text-align: center;
@@ -368,8 +363,7 @@ article h2
 	transform: rotate(360deg);
 }
 
-/* /Rapport */
-/* Section projets */
+/* projects section */
 .projects-objects
 {
 	display: flex;
@@ -424,8 +418,7 @@ article h2
 	box-shadow: 0 0 3px 3px#0DF9FB;
 }
 
-/* /Section projets */
-/* Section compétences */
+/* skills section */
 .skills_container
 {
 	text-align: center;
@@ -447,8 +440,7 @@ article h2
 	transform: scale(1.3);
 }
 
-/* /Section compétences */
-/* Formations */
+/* training */
 .formations_container
 {
 	text-align: center;
@@ -512,8 +504,7 @@ article h2
 	width: 101%;
 }
 
-/* /Formations */
-/* Expériences professionnelles */
+/* professional Experience */
 .professional_experiences_container
 {
 	text-align: center;
@@ -537,8 +528,7 @@ article h2
 	animation-name: pulse;
 }
 
-/* /Expériences professionnelles */
-/* Spécialisation */
+/* specialization */
 .specialisation_container
 {
 	text-align: center;
@@ -560,8 +550,7 @@ article h2
 	margin-right: 5%;
 }
 
-/* /Spécialisation */
-/* Localisation */
+/* location */
 .localisation_container
 {
 	text-align: center;
@@ -570,8 +559,7 @@ article h2
 	padding: 2%;
 }
 
-/* /Localisation */
-/* Mes Réalisations */
+/* my Accomplishments */
 .realisations_container
 {
 	text-align: center;
@@ -599,8 +587,7 @@ article h2
 	transform: rotate(360deg);
 }
 
-/* /Mes Réalisations */
-/* Loisirs */
+/* hobbies */
 .hobbies_container
 {
 	text-align: center;
@@ -659,8 +646,7 @@ article h2
 	}
 }
 
-/* /Loisirs */
-/*section domaines activités */
+/* domain areas */
 .tedskills_container
 {
 	text-align: center;
@@ -687,8 +673,7 @@ article h2
 	margin-bottom : 3%;
 }
 
-/* /section domaines activités */
-/* Définition */
+/* definition */
 .definition_container
 {
 	text-align: center;
@@ -702,8 +687,7 @@ article h2
 	width: 30%;
 }
 
-/* /Définition */
-/* Thèmes */
+/* themes */
 .themes_container
 {
 	text-align: center;
@@ -781,8 +765,7 @@ article h2
 	transform: rotate(360deg);
 }
 
-/* /Thèmes */
-/* Sujets */
+/* topics */
 .subjects_container
 {
 	text-align: center;
@@ -864,14 +847,13 @@ animation: flash 1.5s infinite}
 	}
 }
 
-/* /Sujets */
-/* Slide */
-.slide 
+/* slide */
+.slide
 {
 	text-align: center;
 }
 
-/* Footer */
+/* footer */
 .contact
 {
 	background-size: cover;
@@ -933,8 +915,7 @@ footer.contact_container
 	justify-content: end;
 }
 
-/* /Footer */
-/* Scrollbar */
+/* scrollbar */
 ::-webkit-scrollbar
 {
 	width: 20px;
@@ -955,8 +936,7 @@ footer.contact_container
 	background: #0DF9FB;
 }
 
-/* /Scrollbar */
-/* Progress container */
+/* progress container */
 .progress-container
 {
 	width: 100%;
@@ -964,8 +944,7 @@ footer.contact_container
 	background: black;
 }
 
-/* /Progress container */
-/* Progress bar */
+/* progress bar */
 .progress-bar
 {
 	height: 8px;
@@ -973,8 +952,7 @@ footer.contact_container
 	width: 0%;
 }
 
-/* /Progress bar */
-/* Container */
+/* container */
 .about_container
 {
 	padding: 2%;
@@ -988,8 +966,7 @@ footer.contact_container
 	color: white;
 }
 
-/* /Container */
-/* Bouton */
+/* button */
 .btn
 {
 	background-color: white;
@@ -1026,8 +1003,7 @@ footer.contact_container
 	vertical-align: middle;
 }
 
-/* /Bouton */
-/* Réseaux sociaux */
+/* social media */
 .svg-inline--fa
 {
 	animation: pulse 2s infinite;
@@ -1075,8 +1051,7 @@ footer.contact_container
 	}
 }
 
-/* /Réseaux sociaux */
-/* Scroll bouton */
+/* scroll bouton */
 #scroll_to_top
 {
 	position: fixed;
@@ -1091,8 +1066,7 @@ footer.contact_container
 	width: 150%;
 }
 
-/* /Scroll bouton */
-/* Video */
+/* video */
 video#loop-video
 {
 	position: fixed;
@@ -1104,8 +1078,7 @@ video#loop-video
 	z-index: -100;
 }
 
-/* /Video */
-/* Credits */
+/* credits */
 .credits
 {
 	background-color: black;
@@ -1113,5 +1086,3 @@ video#loop-video
 	display: flex;
 	justify-content: center;
 }
-
-/* /Credits */

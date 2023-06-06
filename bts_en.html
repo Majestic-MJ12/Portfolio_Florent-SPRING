@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- html -->
+<html lang="en">
+	<!-- head -->
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio Florent SPRING</title>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script src="js/all.js"></script>
+		<script  src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
+		<link href="images/favicon.png" rel="icon">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<style type="text/css">
+			a[name]
+			{
+				display: block;
+				height: 63px;
+			}
+		</style>
+	</head>
+	<!-- body -->
+	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
+		<script>
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+			});
+		</script>
+		<div id="top"></div>
+		<div id="scroll_to_top">
+			<a href="#top"><img src="images/to_top.png" alt="Top" /></a>
+		</div>
+		<!-- nav -->
+		<nav>
+			<div class="header">
+				<ul>
+					<li><a href="index_en.html">Home</a></li>
+					<li><a href="dataroom_en.html">Data Room</a></li>
+					<li><a href="cv_en.html">My CV</a></li>
+					<li>
+						<a class = "position" href="bts.html">BTS SIO</a>
+						<ul>
+							<li><a href="#about">About</a></li>
+							<li><a href="#location">Location</a></li>
+							<li><a href="#specialization">Specialization</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+                        <li>
+                            <a href="bts.html">
+                                <img class="flag" src="images/france.png" alt="French" />
+                            </a>
+                        </li>
+					</li>
+				</ul>
+				<div class="progress-container">
+					<div class="progress-bar" id="myBar"></div>
+				</div>
+			</div>
+		</nav>
+		<!-- header -->
+		<main>
+			<video id="loop-video" poster="videos/electronic.png" autoplay loop muted playsinline>
+				<source src="videos/electronic.webm" type="video/webm">
+					<source src="videos/electronic.mp4" type="video/mp4"></video>
+					<header>
+						<h1>
+							<span><br>BTS SIO</span>
+						</h1>
+						<h2>
+							<br>
+							<span>Brevet de Technicien Supérieur en Services Informatiques aux Organisations</span>
+						</h2>
+					</header>
+					<!-- about section -->
+					<a name="about"></a>
+					<section class="about_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
+						<h3>About</h3>
+						<img class="bts-img" src="images/bts.png" alt="bts">
+						<h2>The Brevet de Technicien Supérieur en Services Informatiques aux Organisations (BTS SIO) is a two-year training program that takes place in French high schools, private schools, or professional training centers. It can be pursued as part of continuing education, apprenticeship, distance learning with the CNED, or initial training.</h2>
+						<h2>BTS SIO offers two distinct specialties: BTS SIO Option SISR and BTS SIO Option SLAM.</h2>
+						<h2>
+							The BTS SIO student acquires skills in three areas of activity, two of which are common to both specialties:
+							<br>
+							<li>Support and provision of IT services</li>
+							<li>Cybersecurity of IT services.</li>
+						</h2>
+						<h2>I completed this BTS in the SISR option at Groupe Saint-Joseph La Salle in Troyes, while also working.</h2>
+						<!-- BTS website link -->
+						<button class="btn" onclick="window.open('https://lasalle-troyes.fr/de-maternelle-a-bac-5-apres-bac/presentation-des-formations-2/bts-sio/','_blank');">BTS SIO Website</button>
+					</section>
+					<!-- location section -->
+					<a name="location"></a>
+					<section class="localisation_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
+						<h3>Location</h3>
+						<article>
+							<div>
+								<h2>GROUPE SAINT-JOSEPH LA SALLE IN TROYES</h2>
+								<br>
+								<h2>Address: 21 Rue du Cloître Saint-Etienne, 10000 Troyes</h2>
+								<h2>Phone: 03 25 72 15 30</h2>
+							</div>
+							<div class="maps">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5308.595712229784!2d4.077422634887705!3d48.2971226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee98f086829225%3A0x220dbccca1623fb9!2sGroupe%20Saint-Joseph%20La%20Salle!5e0!3m2!1sfr!2spl!4v1617727097121!5m2!1sfr!2spl" width="350" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							</div>
+						</article>
+					</section>
+					<!-- specialization section -->
+					<a name="specialization"></a>
+					<section class="specialisation_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "100" data-aos-duration = "400">
+						<h3>Specialization</h3>
+						<section class="specialisation">
+							<section class = "option">
+								<h5>
+									Option SISR
+								</h5>
+								<img src="./images/network.png" width="85%" alt="network" title="network">
+								<h2>
+									Systems and Network Administration:
+									<br>
+									<br>
+									The holder of this specialization participates in the administration of systems and networks. They can modify or adjust infrastructure solutions and the quality of service of network equipment. They acquire the skills to design, install, test, and implement a network infrastructure solution. The student also learns to administer and supervise this network.
+								</h2>
+							</section>
+							<section class = "option">
+								<h5>
+									Option SLAM
+								</h5>
+								<img src="./images/development.png" width="85%" alt="development" title="development">
+								<h2>
+									Application Development and Design:
+									<br>
+									<br>
+									The student participates in the design, development, implementation, and maintenance of the software components of the application solution. They acquire skills in the design and development of an application solution, its maintenance, as well as databases and digital data management.
+								</h2>
+							</section>
+						</section>
+					</section>
+				</main>
+				<!-- footer and contact -->
+				<a name=""></a>
+				<footer class="contact_container">
+					<a name="contact"></a>
+					<section class="link">
+						<img src="images/link.png" alt="link">
+					</section>
+					<section>
+						<div>
+							<h3>Contact</h3>
+							<p>
+								<u>
+									Email:
+								</u>
+								<a href="mailto:florent.spring@yahoo.fr">florent.spring@yahoo.fr</a>
+								<br>
+								<br>
+								<u>
+									You can also find me on social media:
+								</u>
+							</p>
+						</div>
+						<div class="social">
+							<a href="https://twitter.com/majestic_sj12/"target="_blank"><i class="fab fa-twitter-square"></i></a>
+							<a href="https://www.linkedin.com/in/florent-spring-32035914b/"target="_blank"><i class="fab fa-linkedin"></i></a>
+						</div>
+						<br>
+					</section>
+					<section class="link-2">
+						<img src="images/link-2.png" alt="link-2">
+					</section>
+				</footer>
+				<!-- credits -->
+				<section class="credits">
+					<p>
+						Conception and Realization: Florent SPRING - Software Used: PowerPoint®, Inkscape, and VideoPad® - Resources: Pixabay, Google Images (Creative Commons Licenses), Google Maps, and TED2COM - Site created using HTML, CSS, JS
+					</p>
+				</section>
+				<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+				<script>
+					AOS.init();
+				</script>
+			</body>
+		</html>

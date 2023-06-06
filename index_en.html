@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- html -->
+<html lang="en">
+	<!-- head -->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Portfolio Florent SPRING">
+		<meta name="keywords" content="Portfolio, Florent SPRING, BTS SIO">
+		<meta name="author" content="Florent SPRING">
+		<title>Portfolio Florent SPRING</title>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script src="js/all.js"></script>
+		<script  src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
+		<link href="images/favicon.png" rel="icon">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&family=Roboto:ital@1&display=swap" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<style type="text/css">
+			a[name]
+			{
+				display: block;
+				height: 63px;
+			}
+		</style>
+	</head>
+	<!-- body -->
+	<body>
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
+		<script>
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+			});
+		</script>
+		<div id="top"></div>
+		<div id="scroll_to_top">
+			<a href="#top"><img src="images/to_top.png" alt="Up" /></a>
+		</div>
+		<!-- nav -->
+		<nav>
+			<div class="header">
+				<ul>
+					<li>
+						<a class="position" href="index.html">Home</a>
+						<ul>
+							<li><a href="#my_projects">My Projects</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</li>
+					<li><a href="dataroom_en.html">Data Room</a></li>
+					<li><a href="cv_en.html">My CV</a></li>
+					<li><a href="bts_en.html">BTS SIO</a></li>
+                    <li>
+						<a href="index.html">
+							<img class="flag" src="images/france.png" alt="French" />
+						</a>
+					</li>
+				</ul>
+				<div class="progress-container">
+					<div class="progress-bar" id="myBar"></div>
+				</div>
+			</div>
+		</nav>
+		<!-- header -->
+		<main>
+			<video id="loop-video" poster="videos/electronic.png" autoplay loop muted playsinline>
+				<source src="videos/electronic.webm" type="video/webm">
+					<source src="videos/electronic.mp4" type="video/mp4"></video>
+					<header>
+						<h1>
+							<span><br>WELCOME TO MY PORTFOLIO</span>
+						</h1>
+						<br>
+						<br>
+						<h2><span>Here are the skills and knowledge I have acquired during my training and professional experiences</span></h2>
+						<br>
+						<br>
+						<h3><span>ENJOY YOUR VISIT!</span></h3>
+					</header>
+					<!-- section projects -->
+					<a name="my_projects"></a>
+					<section class="projects_container" data-aos="zoom-in" data-aos-offset= "200" data-aos-delay= "150" data-aos-duration = "400">
+						<h3>My Projects</h3>
+						<div class="projects-objects">
+							<div class="projects-objects-1">
+								<img src="images/coding.jpg" alt="coding">
+								<h2>Develop my Front-end and Back-end skills.</h2>
+							</div>
+							<div class="projects-objects-2">
+								<img src="images/bigdata.png" alt="bigdata">
+								<h2>Create an independent video game studio to develop a game from scratch using a engine like UNREAL ENGINE® or UNITY®.</h2>
+							</div>
+							<div class="projects-objects-3">
+								<img src="images/network.jpg" alt="Sailor V Branding">
+								<h2>Acquire advanced cybersecurity skills and build my own computer network.</h2>
+							</div>
+						</div>
+					</section>
+				</main>
+				<!-- footer and contact -->
+				<a name=""></a>
+				<footer class="contact_container">
+					<a name="contact"></a>
+					<div class="link">
+						<img src="images/link.png" alt="bigdata">
+					</div>
+					<section>
+						<div>
+							<h3>Contact</h3>
+							<p>
+								<u>
+									Email:
+								</u>
+								<a href="mailto:florent.spring@yahoo.fr">florent.spring@yahoo.fr</a>
+								<br>
+								<br>
+								<u>
+									You can also find me on social media:
+								</u>
+							</p>
+						</div>
+						<div class="social">
+							<a href="https://twitter.com/majestic_sj12/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+							<a href="https://www.linkedin.com/in/florent-spring-32035914b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+						</div>
+						<br>
+					</section>
+					<div class="link-2">
+						<img src="images/link-2.png" alt="bigdata">
+					</div>
+				</footer>
+				<!-- credits-->
+				<section class="credits">
+					<p>
+						Design and Development: Florent SPRING - Software used: PowerPoint®, Inkscape, and VideoPad® - Resources: Pixabay, Google Images (Creative Commons licenses), Google Maps, and TED2COM - Website created with HTML, CSS, JS
+					</p>
+				</p>
+			</section>
+			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script>
+				AOS.init();
+			</script>
+		</body>
+	</html>

@@ -2,13 +2,13 @@
 
 ## Installation
 
-Cloner ce depot :
+Clone this repository:
 ```
 $ git clone https://github.com/Majestic-MJ12/OC_P4_DA-Python.git
 ```
 
 ## Accès
 
-Si vous avez téléchargé le depot, ouvrez ```index.html```
+If you downloaded the repository, open ```index.html```
 
-Lien HTML direct : https://majestic-mj12.github.io/Portfolio_Florent-SPRING/
+Direct HTML link : https://majestic-mj12.github.io/Portfolio_Florent-SPRING/

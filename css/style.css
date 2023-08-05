@@ -87,13 +87,13 @@
 	}
 }
 
-/* Html + Body */
+/* html + body */
 html, body
 {
 	cursor: url('../images/cursor.png'), default;
 }
 
-/* Html */
+/* html */
 html
 {
 	scroll-behavior: smooth;
@@ -107,7 +107,7 @@ main
 	margin-right: 10%;
 }
 
-/* Nav */
+/* nav */
 nav ul
 {
 	display: flex;
@@ -173,7 +173,7 @@ nav ul li:hover ul li
     height: 60px;
 }
 
-/* Header section */
+/* header section */
 header
 {
 	padding: 7%;
@@ -198,7 +198,7 @@ header h1 span
 	margin: 0;
 }
 
-/* Body */
+/* body */
 body
 {
 	font-family: 'Open Sans', sans-serif;
@@ -278,7 +278,7 @@ p
 	color: whitesmoke;
 }
 
-/* Img */
+/* img */
 .bts-img
 {
 	width: 25%;
@@ -311,7 +311,7 @@ p
 	filter: blur(0);
 }
 
-/* Maps */
+/* maps */
 .maps
 {
 	border: #0DF9FB;
@@ -319,7 +319,7 @@ p
 	border-style: solid;
 }
 
-/* Article */
+/* article */
 article
 {
 	display: flex;
@@ -334,7 +334,7 @@ article h2
 	text-align: left;
 }
 
-/* Report */
+/* report */
 .report_container
 {
 	text-align: center;
@@ -503,7 +503,7 @@ article h2
 	width: 101%;
 }
 
-/* professional Experience */
+/* professional experience */
 .professional_experiences_container
 {
 	text-align: center;
@@ -558,7 +558,7 @@ article h2
 	padding: 2%;
 }
 
-/* my Accomplishments */
+/* my accomplishments */
 .realisations_container
 {
 	text-align: center;

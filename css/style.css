@@ -302,7 +302,7 @@ p
 	transition: opacity 5s ease-in-out; /* Apply the transition effect */
 }
   
-  .profil-img:hover {
+.profil-img:hover {
 	opacity: 0; /* Set opacity to 0 on hover */
 	transition: opacity 1s ease-in-out; /* Apply a faster transition on hover */
 }

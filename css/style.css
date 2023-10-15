@@ -1062,13 +1062,13 @@ footer.contact_container
 	position: fixed;
 	width: 2%;
 	height: 2%;
-	bottom: 5%;
-	right: 2%;
+	bottom: 12.5%;
+	right: 4%;
 }
 
 #scroll_to_top img
 {
-	width: 150%;
+	width: 250%;
 }
 
 /* video */

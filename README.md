@@ -13,6 +13,6 @@ If you downloaded the repository, open ```index.html```
 
 Direct HTML link : https://majestic-mj12.github.io/Portfolio_Florent-SPRING/
 
-## LICENCE
+## LICENSE
 
 GNU AFFERO GENERAL PUBLIC LICENSE
